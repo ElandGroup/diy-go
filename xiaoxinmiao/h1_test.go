@@ -1,6 +1,7 @@
-package main
+package xiaoxinmiao
 
 import (
+	diy "diy-go"
 	"fmt"
 	"testing"
 
@@ -8,7 +9,7 @@ import (
 )
 
 func Test_StructToJson(t *testing.T) {
-	book := &Book{
+	book := &diy.Book{
 		Name:  "go",
 		Price: 12.5,
 	}
