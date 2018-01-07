@@ -6,11 +6,19 @@
 To achieve the following methods:
         StructToJson
         StructToMap
-        MapToStruct
-        XmlToJson
-        XmlToJson
-        XmlToMap
         StructToXml
+
+        MapToJson
+        MapToStruct
+        MapToXml
+
+        JsonToStruct
+        JsonToMap
+        JsonToXml
+        
+        XmlToJson
+        XmlToStruct
+        XmlToMap
 sample
     func (XXM) StructToJson(book *diy.Book) (result string, err error) {
         b, err := json.Marshal(book)
