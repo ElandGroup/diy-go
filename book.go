@@ -1,4 +1,4 @@
-package main
+package diy
 
 type Book struct {
 	Name  string  `json:"name"`
